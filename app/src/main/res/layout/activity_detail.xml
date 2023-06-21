@@ -3,14 +3,58 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DetailActivity">
+    tools:context=".DetailActivity"
+    android:background="@color/blue_300">
+
+    <!--
+    1. Imagen
+    2. Nombre
+    3. Descripcion
+    -->
+
+    <ImageView
+
+        android:id="@+id/logo_cafeteria"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="6dp"
+        android:foregroundGravity="center"
+        android:src="@drawable/img_1"/>
+
+    <TextView
+        android:id="@+id/nombre_cafeteria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/lista_productos"
+        android:layout_below="@+id/logo_cafeteria"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="-117dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="20dp"
+        android:layout_toEndOf="@+id/logo_cafeteria"
+        android:text="Nombre"
+        android:textSize="25sp"
+        android:gravity="center"/>
 
     <TextView
         android:id="@+id/textView"
-        android:text="Hola soy un item xd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="24sp"
-        android:layout_centerInParent="true" />
+        android:layout_below="@+id/logo_cafeteria"
+        android:layout_marginTop="50dp"
+        android:text="Descripción"
+        android:textSize="24sp"/>
+
+    <ListView
+        android:id="@+id/lista_productos"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="69dp" />
+
 
 </RelativeLayout>

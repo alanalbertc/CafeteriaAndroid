@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         listView = findViewById(R.id.listView)
         items = arrayListOf("Barra IA", "Cafeteria 1", "Cafeteria 2", "Cafeteria 3", "Cafeteria 4")
 
-        val adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, items)
+        val adapter = ArrayAdapter(this, R.layout.custom_item, R.id.textView, items)
         listView.adapter = adapter
 
         listView.onItemClickListener = AdapterView.OnItemClickListener { parent, view, position, id ->
