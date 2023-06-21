@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Cafeteria</string>
+    <string name="escuela">ESCOM</string>
+    <string name="cafeterias">Cafeterias</string>
 </resources>

@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         listView = findViewById(R.id.listView)
-        items = arrayListOf("Item 1", "Item 2", "Item 3", "Item 4", "Item 5")
+        items = arrayListOf("Barra IA", "Cafeteria 1", "Cafeteria 2", "Cafeteria 3", "Cafeteria 4")
 
         val adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, items)
         listView.adapter = adapter
