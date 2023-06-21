@@ -2,4 +2,14 @@
     <string name="app_name">Cafeteria</string>
     <string name="escuela">ESCOM</string>
     <string name="cafeterias">Cafeterias</string>
+    <string name="sign_in">Iniciar sesión</string>
+    <string name="create_account">Crear cuenta</string>
+    <string name="confirm_password">Boleta</string>
+    <string name="email">Correo</string>
+    <string name="password">Contraseña</string>
+    <string name="nombre">Nombre</string>
+    <string name="or">o</string>
+    <string name="you_are_signed_in">iniciaste sesión</string>
+    <string name="sign_out">Adios</string>
+    <string name="volver">Volver</string>
 </resources>
